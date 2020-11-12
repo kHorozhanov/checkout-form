@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
-import { DeliveryOption } from '../../../../models/delivery-option';
+import { DeliveryOption } from '../../models/delivery-option';
 import { DeliveryOptionQuery } from '../../state/delivery-option/delivery-option.query';
 import { DeliveryOptionService } from '../../state/delivery-option/delivery-option.service';
 

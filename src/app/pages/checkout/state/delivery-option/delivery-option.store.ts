@@ -1,5 +1,5 @@
 import { EntityState, EntityStore, StoreConfig } from '@datorama/akita';
-import { DeliveryOption } from '../../../../models/delivery-option';
+import { DeliveryOption } from '../../models/delivery-option';
 
 export interface DeliveryOptionState extends EntityState<DeliveryOption> {
 }

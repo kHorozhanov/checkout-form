@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
-import { Product } from '../../../../models/product';
+import { Product } from '../../models/product';
 import { CartQuery } from '../../state/cart/cart.query';
 import { CartService } from '../../state/cart/cart.service';
 

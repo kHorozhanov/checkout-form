@@ -1,5 +1,5 @@
 import { Component, EventEmitter, HostListener, Input, Output } from '@angular/core';
-import { DeliveryOption } from '../../../../models/delivery-option';
+import { DeliveryOption } from '../../models/delivery-option';
 
 @Component({
   selector: 'app-delivery-option',
