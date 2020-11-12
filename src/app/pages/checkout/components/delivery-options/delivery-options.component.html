@@ -1,0 +1,6 @@
+<app-delivery-option
+  *ngFor="let option of deliveryOptions | async; trackBy: trackById"
+  [deliveryOption]="option"
+  [isActive]="false"
+  class="delivery-option"
+></app-delivery-option>

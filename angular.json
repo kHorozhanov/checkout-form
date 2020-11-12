@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "liki-front-live-coding"
+    }
+  },
+  "defaultProject": "liki-front-live-coding",
+  "cli": {
+    "defaultCollection": "@datorama/akita"
+  }
 }

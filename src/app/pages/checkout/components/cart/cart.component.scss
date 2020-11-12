@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  & + & {
+    margin-top: 8px;
+  }
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+
+  & + & {
+    margin-top: 8px;
+  }
+}

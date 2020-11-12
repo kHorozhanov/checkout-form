@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active-status {
+  font-size: 24px;
+}

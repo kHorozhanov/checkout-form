@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-option {
+  & + & {
+    margin-top: 8px;
+  }
+}

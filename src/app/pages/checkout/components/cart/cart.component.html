@@ -1,0 +1,22 @@
+<div class="products">
+  <app-product
+    *ngFor="let product of products | async; trackBy: trackById;"
+    [product]="product"
+    (quantityChange)="updateProductQuantity(product.id, $event)"
+    class="product"
+  ></app-product>
+</div>
+<div class="summary">
+  <div class="summary-item">
+    <span>X товаров на сумму:</span>
+    <span>????</span>
+  </div>
+  <div class="summary-item">
+    <span>Доставка:</span>
+    <span>????</span>
+  </div>
+  <div class="summary-item">
+    <span>Всего:</span>
+    <span>????</span>
+  </div>
+</div>
