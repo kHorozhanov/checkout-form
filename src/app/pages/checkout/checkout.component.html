@@ -1,14 +1,3 @@
-<pre>
-  1. Создать Guard для /checkout
-    1.1. Вызвать load для DeliveryOptionService и CartService
-    1.2. Если после загрузки в DeliveryOptionQuery либо в CartQuery нет данных - редиректить на главную
-  2. DeliveryOptionsComponent - имплементировать ControlValueAccessor и связать с с формой в CheckoutComponent
-  3. CheckoutComponent form.deliveryOption
-    3.1. Отображать состояние корзины - если у всех товаров в корзине одинаковый deliveryOptionId ? deliveryOption : null
-    3.2. При изменении значения пользователем - обновлять deliveryOptionId, stock и price для товаров в корзине
-  4. CartComponent - сделать вывод Summary
-  5. DeliveryOptionComponent - отображать стоимость товаров из корзины для deliveryOption
-</pre>
 <div class="content">
   <div class="main">
     <form [formGroup]="form" (onSubmit)="handleSubmit()">

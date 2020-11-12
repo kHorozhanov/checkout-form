@@ -9,3 +9,10 @@
   flex-direction: column;
   flex: 1 0 auto;
 }
+
+nav {
+  padding: 16px 0;
+  a + a {
+    margin-left: 16px;
+  }
+}
