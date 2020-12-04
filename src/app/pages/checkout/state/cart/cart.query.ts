@@ -7,4 +7,8 @@ export class CartQuery extends QueryEntity<CartState> {
   constructor(store: CartStore) {
     super(store);
   }
+
+  hasProducts(): boolean {
+    return !!this.getCount();
+  }
 }

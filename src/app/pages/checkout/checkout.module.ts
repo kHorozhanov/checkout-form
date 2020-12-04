@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CheckoutComponent } from './checkout.component';
+import { CheckoutGuard } from './checkout.guard';
 import { CartComponent } from './components/cart/cart.component';
 import { DeliveryOptionComponent } from './components/delivery-option/delivery-option.component';
 import { DeliveryOptionsComponent } from './components/delivery-options/delivery-options.component';
@@ -39,7 +40,8 @@ import { DeliveryOptionStore } from './state/delivery-option/delivery-option.sto
     CartService,
     DeliveryOptionStore,
     DeliveryOptionQuery,
-    DeliveryOptionService
+    DeliveryOptionService,
+    CheckoutGuard
   ]
 })
 export class CheckoutModule {

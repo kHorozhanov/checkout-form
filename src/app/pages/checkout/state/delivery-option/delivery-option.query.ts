@@ -7,4 +7,8 @@ export class DeliveryOptionQuery extends QueryEntity<DeliveryOptionState> {
   constructor(store: DeliveryOptionStore) {
     super(store);
   }
+
+  hasDeliveryOptions(): boolean {
+    return !!this.getCount();
+  }
 }
